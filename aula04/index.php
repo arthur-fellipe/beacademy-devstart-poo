@@ -5,9 +5,9 @@ include 'Professor.php';
 include 'Disciplina.php';
 
 $cursoPHP = new Curso();
-$cursoPHP-> nome = 'PHP';
-$cursoPHP-> descricao = 'Aulas de introdução ao PHP';
-$cursoPHP-> cargaHoraria = 90;
+$cursoPHP->nome = 'PHP';
+$cursoPHP->descricao = 'Aulas de introdução ao PHP';
+$cursoPHP->cargaHoraria = 90;
 
 $professor1 = new Professor();
 $professor1->nome = 'Alessandro Feitoza';
