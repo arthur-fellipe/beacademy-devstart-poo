@@ -1,8 +1,8 @@
 <?php
 
-include 'Curso.php';
-include 'Professor.php';
-include 'Disciplina.php';
+include '../aula08/Curso.php';
+include '../aula08/Professor.php';
+include '../aula08/Disciplina.php';
 
 $cursoPHP = new Curso();
 $cursoPHP->setNome('PHP');
@@ -16,5 +16,5 @@ $professor1->setSalario(3500.00);
 
 $disciplina1 = new Disciplina();
 $disciplina1->setNome('Programação Orientada a Objetos');
-$disciplina1->setProfessor($professor);
+$disciplina1->setProfessor($professor1);
 $disciplina1->setCargaHoraria(5);

@@ -1,8 +1,8 @@
 <?php
 
-include '../aula10/Curso.php';
-include '../aula10/Professor.php';
-include '../aula10/Disciplina.php';
+include '../aula11/Curso.php';
+include '../aula11/Professor.php';
+include '../aula11/Disciplina.php';
 
 $cursoPHP = new Curso('PHP', 'Aulas de introdução ao PHP', 90);
 

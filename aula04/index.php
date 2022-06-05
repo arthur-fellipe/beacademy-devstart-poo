@@ -1,8 +1,8 @@
 <?php
 
-include 'Curso.php';
-include 'Professor.php';
-include 'Disciplina.php';
+include '../aula04/Curso.php';
+include '../aula04/Professor.php';
+include '../aula04/Disciplina.php';
 
 $cursoPHP = new Curso();
 $cursoPHP->nome = 'PHP';

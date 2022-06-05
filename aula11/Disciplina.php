@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 class Disciplina {
-    public function __construct(private string $nome, private object $professor, private int $cargaHoraria)
+    public function __construct(private string $nome, private Professor $professor, private int $cargaHoraria)
     {
         if ($cargaHoraria < 0) {
             die('Ops, carga horária não pode ser negativa!');
@@ -26,11 +26,11 @@ class Disciplina {
         $this->nome = $nome;
     }
 
-    public function getProfessor(): object {
+    public function getProfessor(): Professor {
         return $this->professor;
     }
 
-    public function setProfessor(object $professor): void {
+    public function setProfessor(Professor $professor): void {
         $this->professor = $professor;
     }
 }
