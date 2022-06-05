@@ -13,6 +13,10 @@ Repositório que hospeda a resolução de atividades propostas durante aulas de 
 
 [Aula 08](./aula08)
 
+[Aula 09](./aula09)
+
+[Aula 10](./aula10)
+
 ## Autores
 
 - [@arthur-fellipe](https://www.github.com/arthur-fellipe)
