@@ -17,6 +17,16 @@ Repositório que hospeda a resolução de atividades propostas durante aulas de 
 
 [Aula 10](./aula10)
 
+[Aula 11](./aula11)
+
+[Aula 12](./aula12)
+
+[Aula 14](./aula14)
+
+[Aula 15](./aula15)
+
+[Aula 16](./aula16)
+
 ## Autores
 
 - [@arthur-fellipe](https://www.github.com/arthur-fellipe)
