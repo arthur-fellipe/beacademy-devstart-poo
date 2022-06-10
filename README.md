@@ -29,6 +29,10 @@ Repositório que hospeda a resolução de atividades propostas durante aulas de 
 
 [Aula 19](./aula19)
 
+[Aula 23](./aula23)
+
+[Projeto Final](./projeto-final)
+
 ## Autores
 
 - [@arthur-fellipe](https://www.github.com/arthur-fellipe)
