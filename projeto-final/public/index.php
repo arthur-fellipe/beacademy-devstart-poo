@@ -25,15 +25,6 @@ $routes = [
     '/category' => createRoute(CategoryController::class, 'listAction'),
     '/category/new' => createRoute(CategoryController::class, 'addAction'),
     '/category/edit' => createRoute(CategoryController::class, 'editAction'),
-
-    // '/' => [
-    //     'controller' => IndexController::class,
-    //     'method' => 'indexAction'
-    // ],
-    // '/produtos' => [
-    //     'controller' => ProductController::class,
-    //     'method' => 'listAction'
-    // ],
 ];
 
 if (false === isset($routes[$url])) {
@@ -45,17 +36,3 @@ $controllerName = $routes[$url]['controller'];
 $methodName = $routes[$url]['method'];
 
 (new $controllerName())->$methodName();
-
-// $i = new IndexController();
-// $i->indexAction();
-// $i->loginAction();
-
-// $p = new ProductController();
-// $p->listAction();
-// $p->addAction();
-// $p->editAction();
-
-// $c = new CategoryController();
-// $c->listAction();
-// $c->addAction();
-// $c->editAction();
